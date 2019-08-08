@@ -1,0 +1,5 @@
+不合法！
+修改为：
+	vector<int> ivec ;
+	int i ;
+	ivec.push_back(i);

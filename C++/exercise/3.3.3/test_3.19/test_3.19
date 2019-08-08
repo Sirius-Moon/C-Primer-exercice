@@ -1,0 +1,7 @@
+方法一：
+	vector<int> ivec1(10, 42) ;
+方法二：
+	vector<int> ivec2{42,...,42} ;
+方法三：
+	vector<int> ivec3 = ivec2 ;
+从书写量上讲，显然方法一更好！
