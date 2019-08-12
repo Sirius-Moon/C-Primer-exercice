@@ -1,0 +1,5 @@
+不能把指针的值赋给int类型；
+先赋值给int类型，后赋值给double类型，精度会有损失
+
+double dval ; int ival ; int *p ;
+*p = ival = dval ;
