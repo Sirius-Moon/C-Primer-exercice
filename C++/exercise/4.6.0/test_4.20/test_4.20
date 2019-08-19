@@ -1,0 +1,10 @@
+vector<string>::iterator 是迭代器类型，例如
+vector<string> v1 ;
+v1.begin() v1.end() 等
+
+(a)*iter++ 意义是输出当前迭代器所指向的元素，同时再向后移动一位
+(b)(*iter)++ 意义是将迭代器所指元素，自增一次；这里是string类型，显然这是错误的
+(c)*iter.empty 意义是看迭代器的是否为空，很显然是错误的
+(d)iter->empty() 意义是看迭代器指向的元素是否为空，这里元素为string，是正确的
+(e)++*iter 意义是将指向的元素自增一，显然是错误的
+(f)iter++->empty() 意义是看指向的元素是否为空，再将迭代器后移一位

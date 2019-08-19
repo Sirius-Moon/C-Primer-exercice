@@ -1,0 +1,18 @@
+while (string::iterator iter != s.end())
+	{/*    */}
+改为：
+string::iterator iter = s.begin();
+while (iter != s.end())
+	{/*...*/}
+
+while (bool status = find(word) ) {/* ... */}
+	if (!status) {/*...*/}
+
+改为:
+
+while (bool status = find(word)) {
+	if (!status) {
+	/*.....*/
+	}
+	/*.....*/
+	}

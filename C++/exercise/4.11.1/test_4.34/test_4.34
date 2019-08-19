@@ -1,0 +1,5 @@
+(a).fval float-> bool
+(b).ival 由int -> float -> double 
+    fval 由float -> double
+(c).cval 由char -> int -> double
+    ival 由int -> double 

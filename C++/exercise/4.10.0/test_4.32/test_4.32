@@ -1,0 +1,6 @@
+constexpr int size = 5;
+int ia[size] = {1 , 2 , 3 , 4 , 5} ;
+for (int *ptr = ia , ix = 0 ;
+     ix != size && ptr != ia + size ; ++ix , ++ptr)
+     //ix != size 与 ptr != ia + size 应该是一样的作用
+

@@ -1,0 +1,5 @@
+(a) case语句后应该添加break语句；
+(b) ix 定义在case 1 中 应该定义在外部
+(c) case 1,3,5
+    改为 case 1: case 2: case 3:
+(d) case 语句后应该为整型常量，而这里是无符号变量

@@ -1,0 +1,10 @@
+(a).cval 'a' char -> int -> char
+          3  int -> char 
+(b).ival int -> float
+    ui   unsigned  -> float
+(c).ui   unsigned -> double
+    fval unsigned -> double
+(d).ival int -> float -> double -> char
+    fval float -> double -> char
+    dval double -> char
+   
