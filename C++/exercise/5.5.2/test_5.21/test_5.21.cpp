@@ -16,17 +16,24 @@ int main() {
 			if (s2 != *beg )
 				s2 = *beg , ++beg ;
 			else {
-				cout << "The same word is " ;
-				for(char c : s2)
-					cout << c ;
-				cout << endl ;
-				break ;
+				if (s2[0] >= 'A' && s2[0] <= 'Z') {
+					cout << "The same word is " ;
+					for(char c : s2)
+						cout << c ;
+					cout << endl ;
+					break ;
+				}
+				else {
+					++beg ;
+					continue ;
+				}
 			}
 		if (beg == end )
 			cout << "Don't have same word!" <<endl ;
 	//若return 0 ;在此处就只循环一次
 	} while(cin) ;
-	//这里执行后发现按ctrl+D不会退出do-while循环
+	//括号里写1执行后发现按ctrl+D不会退出do-while循环
+	//括号里写cin执行结果正常一点
 	return 0 ;
 }
 		

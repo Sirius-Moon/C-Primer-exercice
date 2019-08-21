@@ -1,0 +1,2 @@
+while(sz <= get_size())
+	int sz = get.size() ; //这里可以放在外部定义
