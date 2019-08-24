@@ -1,0 +1,7 @@
+bool is_empty(string &s) {
+	return s.empty()
+}
+
+//这里形参使用的是string 类型，则不能接受const类型，字面值类型，类型转换的类型的实参。
+
+改为 const string &s

@@ -1,0 +1,4 @@
+void print(const int ia[]) {			//这里定义形参不能用ia[10] 会被认为int型，不能接受数值类的实参 。
+	for (size_t i = 0 ; i != 10 ; ++i )
+		std::cout << ia[i] << std::endl ; //这里最好带上命名空间
+}

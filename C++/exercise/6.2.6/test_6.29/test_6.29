@@ -1,0 +1,3 @@
+注意这里是范围for循环
+类似于for (const auto &i : iz) 其中iz是initializer<int>类型的
+由于initializer中的元素都是const 类型， 显然这里声明为引用类型，且声明为const类型更好

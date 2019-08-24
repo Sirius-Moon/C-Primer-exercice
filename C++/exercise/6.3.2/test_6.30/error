@@ -1,0 +1,4 @@
+test_6.30.cpp: In function ‘bool str_subrange(const string&, const string&)’:
+test_6.30.cpp:11:4: error: return-statement with no value, in function returning ‘bool’ [-fpermissive]
+    return ;
+    ^
